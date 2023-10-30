@@ -1,0 +1,29 @@
+.audio-icon-wrapper {
+    font-size: 4rem;
+    position: fixed;
+    bottom: 2.5rem;
+    right: 2rem;
+    z-index: 10;
+    cursor: pointer;
+    animation: rotating 4s linear infinite;
+    transform-origin: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+    border: none;
+    background: none;
+  }
+  
+  .audio-icon-wrapper i {
+    color: #9f9f9f;
+  }
+  
+  @keyframes rotating {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
