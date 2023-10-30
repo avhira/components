@@ -1,0 +1,69 @@
+.gallery-img {
+  padding-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+.gallery-img img {
+  border-radius: 1rem;
+}
+
+.lightbox-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+.lightbox {
+  position: relative;
+  text-align: center;
+}
+.lightbox img {
+  width: 70%;
+  height: 70%;
+  border-radius: 1rem;
+}
+
+.close-btn {
+  position: absolute;
+  top: -3rem;
+  right: 4rem;
+  font-size: 5rem;
+  font-weight: 600;
+  padding: 0 1.5rem;
+  color: red;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-btn {
+  color: #ffffff;
+  background: none;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 5rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@media (max-width: 576px) {
+  .lightbox img {
+    width: 60%;
+    height: 60%;
+  }
+
+  .close-btn {
+    position: absolute;
+    top: -8rem;
+    right: 2rem;
+    font-size: 5rem;
+  }
+}
