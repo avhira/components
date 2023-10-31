@@ -2,7 +2,7 @@
 ### 1. Import your Audio in component
 
 ```bash
-import music from './[your audio path]';;
+import music from './[your audio path]';
 ```
 
 ### 2. Import Component
