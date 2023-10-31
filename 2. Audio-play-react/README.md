@@ -25,4 +25,4 @@ I use icon in this component from bootstrap-icon if you want something diference
 ```
 
 ### Preview
-<img src="img/preview.PNG" width='30%' style="border: 1px solid white;"><img src="img/preview2.PNG" width='30%' style="border: 1px solid white;">
+<img src="img/preview.PNG" width='30%' style="border: 1px solid white;">
