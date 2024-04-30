@@ -1,0 +1,45 @@
+.pagination {
+  display: flex;
+  list-style: none;
+  color: #fff;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.page-item {
+  padding: 8px 16px;
+  border: 2px solid #ddd;
+  transition: 0.5s ease;
+  border-radius: 8px;
+}
+.page-link {
+  font-size: 1.5rem;
+}
+
+.active {
+  background: #fff;
+  color: black;
+}
+.hidden {
+  visibility: hidden;
+}
+
+/* this not style */
+.background {
+  height: 100vh;
+  background: black;
+}
+.app {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.app ul {
+  list-style: none;
+  border: 1px solid #fff;
+  text-align: center;
+  color: #fff;
+  padding: 2rem;
+  margin: 3px;
+  border-radius: 8px;
+  font-size: 1.5rem;
+}
