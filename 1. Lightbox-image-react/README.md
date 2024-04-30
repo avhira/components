@@ -11,5 +11,4 @@ the data must have id, image, bigImg, and alt
 <LightboxImage images={[your data]};
 ```
 # Preview
-<img src="img/preview.PNG" width='35%'>
-<img src="img/preview-lightbox.PNG" width='35%'>
+<img src="img/preview.PNG" width='35%'> <img src="img/preview-lightbox.PNG" width='35%'>
